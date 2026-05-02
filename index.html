@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maksuba: Warisan Emas Palembang | Oleh I Kadek Esa Mahesvara</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Montserrat', sans-serif; scroll-behavior: smooth; }
+        h1, h2, h3, .serif { font-family: 'Playfair Display', serif; }
+        .gold-gradient { background: linear-gradient(135deg, #C5A059 0%, #8B6E31 100%); }
+        .bg-cream { background-color: #FDFBF7; }
+        .fade-in { animation: fadeIn 0.5s ease-in; }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+    </style>
+</head>
+<body class="bg-cream text-[#2C2C2C]">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 bg-white/90 backdrop-blur-md border-b border-gray-100 shadow-sm">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-xl font-bold tracking-[4px] text-[#8B6E31]">MAKSUBA.ID</div>
+            <div class="hidden md:flex space-x-8 text-[10px] uppercase tracking-[2px] font-bold">
+                <a href="#filosofi" class="hover:text-[#C5A059] transition">Filosofi</a>
+                <a href="#galeri" class="hover:text-[#C5A059] transition">Galeri</a>
+                <a href="#edukasi" class="hover:text-[#C5A059] transition">Kuis & Edukasi</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="relative h-screen flex items-center justify-center text-center px-6 bg-[#1A1A1A] overflow-hidden">
+        <img src="gambar-hero.jpg" onerror="this.onerror=null; this.src='gambar-hero.jpg.jpg';" class="absolute inset-0 w-full h-full object-cover opacity-40" alt="Background">
+        
+        <div class="relative z-10 max-w-4xl text-white mt-16">
+            <span class="uppercase tracking-[5px] text-sm mb-4 block text-[#C5A059]">Karya Nusantara • Bumi Sriwijaya</span>
+            <h1 class="text-5xl md:text-8xl mb-6 font-bold serif">Kue Maksuba</h1>
+            <p class="text-lg opacity-90 mb-10 max-w-2xl mx-auto font-light leading-relaxed text-justify md:text-center">Simbol penghormatan tertinggi dalam adat Palembang. Manis, legit, dan penuh dedikasi dalam setiap lapisannya.</p>
+            <a href="#filosofi" class="bg-[#C5A059] px-10 py-4 rounded-full text-white uppercase text-[10px] tracking-widest font-bold hover:bg-[#8B6E31] transition shadow-xl inline-block">Mulai Eksplorasi</a>
+        </div>
+    </header>
+
+    <!-- Section 1: Filosofi -->
+    <section id="filosofi" class="py-24 px-6 max-w-6xl mx-auto">
+        <div class="text-center mb-16">
+            <h2 class="text-4xl mb-4 serif italic">Nilai Budaya & Rahasia Rasa</h2>
+            <div class="h-1 w-24 gold-gradient mx-auto"></div>
+        </div>
+        <div class="grid md:grid-cols-2 gap-16 items-center">
+            <div class="space-y-6 text-gray-700 leading-relaxed text-justify">
+                <p>Dalam sejarah Palembang, Maksuba adalah sajian istimewa yang dahulu hanya dinikmati oleh kalangan bangsawan. Kini, kue ini menjadi simbol pemuliaan tamu dan ketulusan hati pembuatnya.</p>
+                <div class="p-8 bg-white border-l-4 border-[#C5A059] italic shadow-md rounded-r-xl font-medium text-[#8B6E31]">
+                    "Setiap loyang Maksuba membutuhkan sekitar 28 butir telur bebek berkualitas untuk menghasilkan rasa yang benar-benar otentik."
+                </div>
+                <p>Teksturnya yang legit dan basah menjadikannya berbeda dari lapis legit biasa. Proses pemanggangan selapis demi selapis membutuhkan waktu hingga 4 jam lebih.</p>
+            </div>
+            <div class="grid grid-cols-2 gap-4">
+                <div class="bg-gray-200 rounded-2xl shadow-xl rotate-2 w-full h-80 overflow-hidden border-4 border-white">
+                    <img src="gambar-1.jpg" onerror="this.onerror=null; this.src='gambar-1.jpg.jpg';" class="w-full h-full object-cover" alt="Kue Maksuba">
+                </div>
+                <div class="bg-gray-200 rounded-2xl shadow-xl -rotate-2 mt-12 w-full h-80 overflow-hidden border-4 border-white">
+                    <img src="gambar-2.jpg" onerror="this.onerror=null; this.src='gambar-2.jpg.jpg';" class="w-full h-full object-cover" alt="Adat Palembang">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 2: Galeri Visual -->
+    <section id="galeri" class="py-24 bg-white px-6">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-3xl mb-12 text-center serif italic">📸 Galeri Visual</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="group overflow-hidden rounded-2xl h-[400px] relative shadow-lg bg-gray-200">
+                    <img src="galeri-1.jpg" onerror="this.onerror=null; this.src='galeri-1.jpg.jpg';" class="w-full h-full object-cover group-hover:scale-110 transition duration-700" alt="Galeri 1">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-transparent to-transparent"></div>
+                    <div class="absolute bottom-0 p-8 text-white">
+                        <h3 class="text-xl serif italic">Kemilau Lapis</h3>
+                    </div>
+                </div>
+                <div class="group overflow-hidden rounded-2xl h-[400px] relative shadow-lg bg-gray-200">
+                    <img src="galeri-2.jpg" onerror="this.onerror=null; this.src='galeri-2.jpg.jpg';" class="w-full h-full object-cover group-hover:scale-110 transition duration-700" alt="Galeri 2">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-transparent to-transparent"></div>
+                    <div class="absolute bottom-0 p-8 text-white">
+                        <h3 class="text-xl serif italic">Tradisi Sriwijaya</h3>
+                    </div>
+                </div>
+                <div class="group overflow-hidden rounded-2xl h-[400px] relative shadow-lg bg-gray-200">
+                    <img src="galeri-3.jpg" onerror="this.onerror=null; this.src='galeri-1.jpg.jpg';" class="w-full h-full object-cover group-hover:scale-110 transition duration-700" alt="Galeri 3">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-transparent to-transparent"></div>
+                    <div class="absolute bottom-0 p-8 text-white">
+                        <h3 class="text-xl serif italic">Sentuhan Emas</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3: Edukasi & Kuis -->
+    <section id="edukasi" class="py-24 bg-[#1A1A1A] text-white px-6">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-4xl mb-12 text-center serif italic">📖 Pojok Edukasi & Kuis</h2>
+            
+            <div class="bg-white text-gray-800 p-8 md:p-12 rounded-3xl shadow-2xl max-w-2xl mx-auto">
+                <div id="quiz-header" class="mb-6 text-center">
+                    <h3 class="text-2xl font-bold serif text-[#8B6E31]">Kuis Pengetahuan Maksuba</h3>
+                    <p class="text-sm text-gray-500 mt-2">Seberapa jauh kamu mengenal warisan budaya ini?</p>
+                </div>
+                
+                <div id="quiz-body" class="min-h-[200px]">
+                    <!-- Rendered by JS -->
+                </div>
+
+                <div id="quiz-footer" class="mt-8 text-center hidden">
+                    <button onclick="restartQuiz()" class="bg-[#1A1A1A] text-white px-8 py-3 rounded-full text-xs font-bold uppercase tracking-widest hover:bg-[#C5A059] transition shadow-lg">Coba Lagi</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Khusus I Kadek Esa Mahesvara -->
+    <footer class="py-16 px-6 text-center bg-white border-t border-gray-100">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-2xl font-bold tracking-[8px] text-[#8B6E31] mb-4 uppercase">Maksuba Heritage</h2>
+            <div class="h-[2px] w-16 gold-gradient mx-auto mb-6"></div>
+            <p class="text-sm text-gray-600 font-medium mb-1">Tugas Presentasi Materi Kue Tradisional</p>
+            <p class="text-xs text-gray-400 uppercase tracking-widest mb-8">© 2026 Warisan Budaya Indonesia</p>
+            
+            <!-- Credit Nama -->
+            <div class="inline-block bg-[#FDFBF7] border border-[#C5A059] px-8 py-4 rounded-2xl shadow-sm">
+                <p class="text-[10px] uppercase tracking-[3px] text-[#8B6E31] font-bold mb-1">Disusun Oleh:</p>
+                <p class="text-lg font-bold text-gray-800 serif italic">I Kadek Esa Mahesvara</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS Logic -->
+    <script>
+        const questions = [
+            {
+                question: "Berapa jumlah rata-rata telur yang dibutuhkan untuk membuat satu loyang Maksuba?",
+                options: ["5 - 10 butir", "15 - 20 butir", "25 - 30 butir"],
+                correct: 2
+            },
+            {
+                question: "Apa ciri khas utama tekstur kue Maksuba yang membedakannya dari kue lain?",
+                options: ["Kering dan renyah", "Legit, basah, dan berlapis", "Berongga seperti spons"],
+                correct: 1
+            },
+            {
+                question: "Kue Maksuba berasal dari daerah mana di Indonesia?",
+                options: ["Palembang", "Denpasar", "Bandung"],
+                correct: 0
+            }
+        ];
+
+        let currentQuestion = 0;
+        let score = 0;
+
+        function loadQuestion() {
+            const quizBody = document.getElementById('quiz-body');
+            const quizFooter = document.getElementById('quiz-footer');
+            
+            if (currentQuestion >= questions.length) {
+                showResult();
+                return;
+            }
+
+            const q = questions[currentQuestion];
+            let optionsHtml = '';
+            q.options.forEach((opt, index) => {
+                optionsHtml += `<button onclick="checkAnswer(${index})" class="w-full text-left p-4 mb-3 rounded-xl border-2 border-gray-100 hover:border-[#C5A059] hover:bg-[#FDFBF7] transition font-medium text-sm">${opt}</button>`;
+            });
+
+            quizBody.innerHTML = `
+                <div class="fade-in">
+                    <p class="text-[10px] font-bold text-gray-400 uppercase tracking-widest mb-2">Soal ${currentQuestion + 1} / ${questions.length}</p>
+                    <h4 class="text-lg font-bold mb-6 text-[#2C2C2C] leading-tight">${q.question}</h4>
+                    <div class="flex flex-col">${optionsHtml}</div>
+                </div>
+            `;
+        }
+
+        function checkAnswer(idx) {
+            if (idx === questions[currentQuestion].correct) score++;
+            currentQuestion++;
+            loadQuestion();
+        }
+
+        function showResult() {
+            const quizHeader = document.getElementById('quiz-header');
+            const quizBody = document.getElementById('quiz-body');
+            const quizFooter = document.getElementById('quiz-footer');
+            
+            quizHeader.innerHTML = `<h3 class="text-2xl font-bold serif text-[#8B6E31]">Hasil Akhir</h3>`;
+            quizBody.innerHTML = `
+                <div class="text-center fade-in py-8">
+                    <div class="text-6xl font-bold text-[#C5A059] mb-4">${score}/${questions.length}</div>
+                    <p class="text-gray-700 font-medium italic">"Terima kasih telah belajar bersama I Kadek Esa Mahesvara!"</p>
+                </div>
+            `;
+            quizFooter.classList.remove('hidden');
+        }
+
+        function restartQuiz() {
+            currentQuestion = 0;
+            score = 0;
+            document.getElementById('quiz-footer').classList.add('hidden');
+            document.getElementById('quiz-header').innerHTML = `
+                <h3 class="text-2xl font-bold serif text-[#8B6E31]">Kuis Pengetahuan Maksuba</h3>
+                <p class="text-sm text-gray-500 mt-2">Seberapa jauh kamu mengenal warisan budaya ini?</p>
+            `;
+            loadQuestion();
+        }
+
+        loadQuestion();
+    </script>
+</body>
+</html>
